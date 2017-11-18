@@ -1,0 +1,123 @@
+[
+  {
+    “nodes” : [
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{18, 87}, {516, 457}}”,
+        “class” : “TableView”,
+        “attributes” : {
+          “uuid” : “7653700E-809A-4AA9-8C7E-1C57EA4A47CC”,
+          “flex” : “WH”,
+          “background_color” : “RGBA(1.000000,1.000000,1.000000,1.000000)”,
+          “data_source_items” : “”,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “data_source_number_of_lines” : 1,
+          “border_width” : 1,
+          “enabled” : true,
+          “data_source_delete_enabled” : true,
+          “data_source_font_size” : 18,
+          “row_height” : 44,
+          “name” : “table”,
+          “data_source_action” : “cell_tapped”
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{368.5, 15}, {65, 64}}”,
+        “class” : “Button”,
+        “attributes” : {
+          “flex” : “”,
+          “action” : “addbutton_tapped”,
+          “enabled” : true,
+          “border_width” : 1,
+          “title” : “+”,
+          “uuid” : “478674C0-9130-4DF1-AD6D-F9233BFCC3E1”,
+          “font_bold” : false,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “font_size” : 15,
+          “name” : “add”
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{81, 15}, {280, 64}}”,
+        “class” : “TextField”,
+        “attributes” : {
+          “uuid” : “90CEC2BA-DC70-4E27-BB1C-47F44205B28C”,
+          “flex” : “”,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “border_width” : 1,
+          “editable” : false,
+          “action” : “inputbox_tapped”,
+          “alignment” : “left”,
+          “enabled” : true,
+          “text” : “”,
+          “text_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “name” : “inputbox”,
+          “font_size” : 17
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{469, 15}, {65, 64}}”,
+        “class” : “Button”,
+        “attributes” : {
+          “flex” : “”,
+          “action” : “subbutton_tapped”,
+          “enabled” : true,
+          “border_width” : 1,
+          “title” : “-“,
+          “uuid” : “478674C0-9130-4DF1-AD6D-F9233BFCC3E2”,
+          “font_bold” : false,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “font_size” : 15,
+          “name” : “sub”
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{18, 15}, {55, 64}}”,
+        “class” : “Button”,
+        “attributes” : {
+          “flex” : “”,
+          “action” : “inputbutton_tapped”,
+          “enabled” : true,
+          “border_width” : 1,
+          “alpha” : 1,
+          “title” : “->”,
+          “uuid” : “478674C0-9130-4DF1-AD6D-F9233BFCC3E1”,
+          “font_bold” : false,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “font_size” : 15,
+          “name” : “add”
+        },
+        “selected” : false
+      }
+    ],
+    “frame” : “{{0, 0}, {550, 555}}”,
+    “class” : “View”,
+    “attributes” : {
+      “name” : “”,
+      “enabled” : true,
+      “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+      “background_color” : “RGBA(1.000000,1.000000,1.000000,1.000000)”,
+      “tint_color” : “RGBA(0.000000,0.478000,1.000000,1.000000)”,
+      “flex” : “”
+    },
+    “selected” : false
+  }
+]
