@@ -1,0 +1,144 @@
+[
+  {
+    “nodes” : [
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{18, 15}, {437, 58}}”,
+        “class” : “TextField”,
+        “attributes” : {
+          “uuid” : “90CEC2BA-DC70-4E27-BB1C-47F44205B28C”,
+          “flex” : “”,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “border_width” : 1,
+          “editable” : false,
+          “action” : “inputbox_tapped”,
+          “alignment” : “left”,
+          “enabled” : true,
+          “text” : “”,
+          “text_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “name” : “inputbox”,
+          “font_size” : 17
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{481, 15}, {65, 64}}”,
+        “class” : “Button”,
+        “attributes” : {
+          “flex” : “”,
+          “action” : “subbutton_tapped”,
+          “enabled” : true,
+          “border_width” : 1,
+          “title” : “-“,
+          “uuid” : “478674C0-9130-4DF1-AD6D-F9233BFCC3E2”,
+          “font_bold” : false,
+          “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+          “font_size” : 15,
+          “name” : “sub”
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{18, 95}, {284, 790}}”,
+        “class” : “TableView”,
+        “attributes” : {
+          “uuid” : “36765C80-A291-4A97-960E-410CB5A5F217”,
+          “data_source_action” : “cell_tapped”,
+          “editing” : false,
+          “background_color” : “RGBA(1.0, 1.0, 1.0, 1.0)”,
+          “frame” : “{{284, 412}, {200, 200}}”,
+          “data_source_items” : “google\nreddit”,
+          “data_source_number_of_lines” : 1,
+          “data_source_delete_enabled” : false,
+          “data_source_font_size” : 18,
+          “row_height” : 44,
+          “class” : “TableView”,
+          “name” : “sites”,
+          “flex” : “WH”
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{310, 95}, {262, 790}}”,
+        “class” : “TableView”,
+        “attributes” : {
+          “uuid” : “E4F2B937-7904-4931-8F8C-2CE843AE6F0C”,
+          “data_source_action” : “cell_tapped”,
+          “flex” : “WH”,
+          “background_color” : “RGBA(1.0, 1.0, 1.0, 1.0)”,
+          “frame” : “{{284, 412}, {200, 200}}”,
+          “data_source_items” : “ucfirefly\nhotarugari”,
+          “data_source_number_of_lines” : 1,
+          “data_source_delete_enabled” : false,
+          “data_source_font_size” : 18,
+          “row_height” : 44,
+          “class” : “TableView”,
+          “name” : “users”,
+          “editing” : false
+        },
+        “selected” : true
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{564, 37}, {120, 29}}”,
+        “class” : “SegmentedControl”,
+        “attributes” : {
+          “name” : “lengths”,
+          “frame” : “{{324, 498}, {120, 29}}”,
+          “uuid” : “13A20DAB-553C-4293-8457-052C4C6E13D7”,
+          “class” : “SegmentedControl”,
+          “segments” : “16|32|64”,
+          “flex” : “LR”
+        },
+        “selected” : false
+      },
+      {
+        “nodes” : [
+
+        ],
+        “frame” : “{{580, 95}, {104, 790}}”,
+        “class” : “TableView”,
+        “attributes” : {
+          “uuid” : “CA362353-DBDF-4C3E-8CAB-BFC4974AFA60”,
+          “data_source_action” : “cell_tapped”,
+          “flex” : “WH”,
+          “background_color” : “RGBA(1.0, 1.0, 1.0, 1.0)”,
+          “frame” : “{{250, 350}, {200, 200}}”,
+          “data_source_items” : “1\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9”,
+          “data_source_number_of_lines” : 1,
+          “data_source_delete_enabled” : false,
+          “data_source_font_size” : 18,
+          “row_height” : 44,
+          “class” : “TableView”,
+          “name” : “salts”,
+          “editing” : false
+        },
+        “selected” : false
+      }
+    ],
+    “frame” : “{{0, 0}, {700, 900}}”,
+    “class” : “View”,
+    “attributes” : {
+      “border_color” : “RGBA(0.000000,0.000000,0.000000,1.000000)”,
+      “enabled” : true,
+      “background_color” : “RGBA(1.000000,1.000000,1.000000,1.000000)”,
+      “tint_color” : “RGBA(0.000000,0.478000,1.000000,1.000000)”,
+      “name” : “”,
+      “flex” : “”
+    },
+    “selected” : false
+  }
+]
