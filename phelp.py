@@ -1,11 +1,8 @@
 # coding: utf-8
 import ui
 import clipboard
-from random import random
 from console import hud_alert
 import pprint
-import hashlib
-import base64
 import getpass
 
 p = getpass.getpass()
